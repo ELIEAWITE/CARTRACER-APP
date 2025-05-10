@@ -1,0 +1,23 @@
+name: cartracer
+description: Une application mobile pour la gestion des transports scolaires.
+publish_to: 'none' # Remplacez par votre choix de publication
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  geolocator: ^9.0.0
+
+  # Ajoutez d'autres dépendances si nécessaire
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
